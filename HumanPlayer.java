@@ -1,6 +1,6 @@
 public class HumanPlayer extends Player {
-    public HumanPlayer(boolean b) {
-        super();
+    public HumanPlayer(boolean isPlayerOne) {
+        super(isPlayerOne);
     }
 
     @Override

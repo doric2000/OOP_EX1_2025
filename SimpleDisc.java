@@ -14,6 +14,6 @@ public class SimpleDisc implements Disc {
 
     @Override
     public String getType() {
-        return "";
+        return "⬤";
     }
 }

@@ -6,9 +6,7 @@ public class GameLogic implements PlayableLogic {
     Player player2;
     @Override
     public boolean locate_disc(Position a, Disc disc) {
-        if (this.getDiscAtPosition(a) != null)
-            return true;
-        return false;
+        return true;
     }
 
     @Override
